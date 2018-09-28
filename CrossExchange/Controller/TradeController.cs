@@ -34,7 +34,8 @@ namespace CrossExchange.Controller
 
 
         /*************************************************************************************************************************************
-        For a given portfolio, with all the registered shares you need to do a trade which could be either a BUY or SELL trade. For a particular trade keep following conditions in mind:
+        For a given portfolio, with all the registered shares you need to do a trade which could be either a BUY or SELL trade. 
+        For a particular trade keep following conditions in mind:
 		BUY:
         a) The rate at which the shares will be bought will be the latest price in the database.
 		b) The share specified should be a registered one otherwise it should be considered a bad request. 
@@ -51,8 +52,51 @@ namespace CrossExchange.Controller
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]TradeModel model)
+
         {
-            return Created("Trade", model);
+            Trade createTrade = new Trade();
+            createTrade.PortfolioId = model.PortfolioId;
+            createTrade.Symbol = model.Symbol;
+            createTrade.NoOfShares = model.NoOfShares;
+            createTrade.Action = model.Action;
+
+            int availableShares = 0;
+            var portfolio = _portfolioRepository.GetAll().Where(x => x.Id.Equals(model.PortfolioId)).FirstOrDefault();
+            
+            //Task c(Buy) and d(Sell)
+            if (portfolio==default(Portfolio) )
+                return BadRequest(model);
+
+            var shares = _shareRepository.Query().Where(x => x.Symbol.Equals(model.Symbol)).ToList();
+      
+            //Task b(Buy) 
+            if (shares == null || shares?.Count == 0)
+                return BadRequest(model);
+
+            // Task a(Buy)
+            var latestprice =  _shareRepository.Query().Where(x => x.Symbol.Equals(model.Symbol)).OrderByDescending(x=>x.TimeStamp).FirstOrDefault();
+            var rate = latestprice?.Rate;
+            createTrade.Price =(createTrade.NoOfShares* rate.Value);
+
+            
+           
+            var trade = _tradeRepository.Query().Where(x => x.PortfolioId.Equals(model.PortfolioId) && x.Symbol.Equals(model.Symbol));
+            if (trade != null)
+            {
+                var totalBuy = trade.Where(x => x.Action.Equals("BUY")).Sum(x => x.NoOfShares);
+                var totalSell = trade.Where(x => x.Action.Equals("SELL")).Sum(x => x.NoOfShares);
+                availableShares = totalBuy - totalSell;
+            }
+            
+            //Task d(Sell)
+            if(model.Action=="SELL" && availableShares<model.NoOfShares)
+            {
+                return BadRequest(model);
+            }
+
+            await _tradeRepository.InsertAsync(createTrade);
+
+            return Created("Trade", createTrade);
         }
         
     }

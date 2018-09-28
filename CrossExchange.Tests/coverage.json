@@ -1,0 +1,1721 @@
+{
+  "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange.Tests\\bin\\Debug\\netcoreapp2.0\\CrossExchange.dll": {
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Exceptions\\HttpStatusCodeException.cs": {
+      "CrossExchange.HttpStatusCodeException": {
+        "System.Int32 CrossExchange.HttpStatusCodeException::get_StatusCode()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String CrossExchange.HttpStatusCodeException::get_ContentType()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.HttpStatusCodeException::.ctor(System.Int32)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.HttpStatusCodeException::.ctor(System.Int32,System.String)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.HttpStatusCodeException::.ctor(System.Int32,System.Exception)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Exceptions\\HttpStatusCodeExceptionMiddleware.cs": {
+      "CrossExchange.HttpStatusCodeExceptionMiddleware": {
+        "System.Void CrossExchange.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)": {
+          "Lines": {
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 16,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 44,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "CrossExchange.HttpStatusCodeExceptionMiddleware/<Invoke>d__3": {
+        "System.Void CrossExchange.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()": {
+          "Lines": {
+            "21": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 1
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 21,
+              "Offset": 35,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 35,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 77,
+              "EndOffset": 146,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 185,
+              "EndOffset": 192,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 230,
+              "EndOffset": 232,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 275,
+              "EndOffset": 277,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 275,
+              "EndOffset": 284,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 230,
+              "EndOffset": 298,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 422,
+              "EndOffset": 424,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 14,
+              "EndOffset": 461,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 422,
+              "EndOffset": 490,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 185,
+              "EndOffset": 508,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Exceptions\\HttpStatusCodeExceptionMiddlewareExtensions.cs": {
+      "CrossExchange.HttpStatusCodeExceptionMiddlewareExtensions": {
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder CrossExchange.HttpStatusCodeExceptionMiddlewareExtensions::UseHttpStatusCodeExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "8": 1,
+            "9": 1,
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Model\\HourlyShareRate.cs": {
+      "CrossExchange.HourlyShareRate": {
+        "System.Int32 CrossExchange.HourlyShareRate::get_Id()": {
+          "Lines": {
+            "8": 303
+          },
+          "Branches": []
+        },
+        "System.DateTime CrossExchange.HourlyShareRate::get_TimeStamp()": {
+          "Lines": {
+            "11": 148
+          },
+          "Branches": []
+        },
+        "System.String CrossExchange.HourlyShareRate::get_Symbol()": {
+          "Lines": {
+            "14": 148
+          },
+          "Branches": []
+        },
+        "System.Decimal CrossExchange.HourlyShareRate::get_Rate()": {
+          "Lines": {
+            "17": 148
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Model\\Portfolio.cs": {
+      "CrossExchange.Portfolio": {
+        "System.Int32 CrossExchange.Portfolio::get_Id()": {
+          "Lines": {
+            "8": 275
+          },
+          "Branches": []
+        },
+        "System.String CrossExchange.Portfolio::get_Name()": {
+          "Lines": {
+            "11": 119
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<CrossExchange.Trade> CrossExchange.Portfolio::get_Trade()": {
+          "Lines": {
+            "13": 127
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Model\\Trade.cs": {
+      "CrossExchange.Trade": {
+        "System.Int32 CrossExchange.Trade::get_Id()": {
+          "Lines": {
+            "5": 270
+          },
+          "Branches": []
+        },
+        "System.String CrossExchange.Trade::get_Symbol()": {
+          "Lines": {
+            "7": 117
+          },
+          "Branches": []
+        },
+        "System.Int32 CrossExchange.Trade::get_NoOfShares()": {
+          "Lines": {
+            "9": 117
+          },
+          "Branches": []
+        },
+        "System.Decimal CrossExchange.Trade::get_Price()": {
+          "Lines": {
+            "11": 116
+          },
+          "Branches": []
+        },
+        "System.Int32 CrossExchange.Trade::get_PortfolioId()": {
+          "Lines": {
+            "13": 217
+          },
+          "Branches": []
+        },
+        "System.String CrossExchange.Trade::get_Action()": {
+          "Lines": {
+            "15": 117
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Model\\TradeModel.cs": {
+      "CrossExchange.TradeModel": {
+        "System.String CrossExchange.TradeModel::get_Symbol()": {
+          "Lines": {
+            "8": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 CrossExchange.TradeModel::get_NoOfShares()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "System.Int32 CrossExchange.TradeModel::get_PortfolioId()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.String CrossExchange.TradeModel::get_Action()": {
+          "Lines": {
+            "18": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Program.cs": {
+      "CrossExchange.Program": {
+        "System.Void CrossExchange.Program::Main(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHost CrossExchange.Program::BuildWebHost(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Repository\\ExchangeContext.cs": {
+      "CrossExchange.ExchangeContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<CrossExchange.Portfolio> CrossExchange.ExchangeContext::get_Portfolios()": {
+          "Lines": {
+            "20": 28
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<CrossExchange.Trade> CrossExchange.ExchangeContext::get_Trades()": {
+          "Lines": {
+            "22": 27
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<CrossExchange.HourlyShareRate> CrossExchange.ExchangeContext::get_Shares()": {
+          "Lines": {
+            "24": 27
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.ExchangeContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.ExchangeContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "58": 9,
+            "59": 9,
+            "60": 9
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.ExchangeContext::.ctor()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.ExchangeContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<CrossExchange.ExchangeContext>)": {
+          "Lines": {
+            "15": 9,
+            "16": 9,
+            "17": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Repository\\GenericRepository.cs": {
+      "CrossExchange.GenericRepository`1": {
+        "CrossExchange.ExchangeContext CrossExchange.GenericRepository`1::get__dbContext()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        },
+        "System.Linq.IQueryable`1<T> CrossExchange.GenericRepository`1::Query()": {
+          "Lines": {
+            "18": 2,
+            "19": 2,
+            "20": 2
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.GenericRepository`1/<GetAsync>d__4": {
+        "System.Void CrossExchange.GenericRepository`1/<GetAsync>d__4::MoveNext()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 59,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "CrossExchange.GenericRepository`1/<InsertAsync>d__6": {
+        "System.Void CrossExchange.GenericRepository`1/<InsertAsync>d__6::MoveNext()": {
+          "Lines": {
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "26": 3
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 81,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "CrossExchange.GenericRepository`1/<UpdateAsync>d__7": {
+        "System.Void CrossExchange.GenericRepository`1/<UpdateAsync>d__7::MoveNext()": {
+          "Lines": {
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 82,
+              "EndOffset": 148,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Repository\\PortfolioRepository.cs": {
+      "CrossExchange.PortfolioRepository": {
+        "System.Linq.IQueryable`1<CrossExchange.Portfolio> CrossExchange.PortfolioRepository::GetAll()": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.PortfolioRepository::.ctor(CrossExchange.ExchangeContext)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Repository\\ShareRepository.cs": {
+      "CrossExchange.ShareRepository": {
+        "System.Void CrossExchange.ShareRepository::.ctor(CrossExchange.ExchangeContext)": {
+          "Lines": {
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Repository\\TradeRepository.cs": {
+      "CrossExchange.TradeRepository": {
+        "System.Void CrossExchange.TradeRepository::.ctor(CrossExchange.ExchangeContext)": {
+          "Lines": {
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Startup.cs": {
+      "CrossExchange.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration CrossExchange.Startup::get_Configuration()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 9,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void CrossExchange.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Migrations\\20180818121317_InitialCreate.cs": {
+      "CrossExchange.Migrations.InitialCreate": {
+        "System.Void CrossExchange.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 45,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 88,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 120,
+              "EndOffset": 122,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 120,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 163,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 195,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void CrossExchange.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Migrations\\20180818121317_InitialCreate.Designer.cs": {
+      "CrossExchange.Migrations.InitialCreate": {
+        "System.Void CrossExchange.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "117": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 109,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 195,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Migrations\\ExchangeContextModelSnapshot.cs": {
+      "CrossExchange.Migrations.ExchangeContextModelSnapshot": {
+        "System.Void CrossExchange.Migrations.ExchangeContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 109,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 195,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Controller\\PortfolioController.cs": {
+      "CrossExchange.Controller.PortfolioController": {
+        "CrossExchange.IPortfolioRepository CrossExchange.Controller.PortfolioController::get__portfolioRepository()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.Controller.PortfolioController::.ctor(CrossExchange.IShareRepository,CrossExchange.ITradeRepository,CrossExchange.IPortfolioRepository)": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.Controller.PortfolioController/<GetPortfolioInfo>d__5": {
+        "System.Void CrossExchange.Controller.PortfolioController/<GetPortfolioInfo>d__5::MoveNext()": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.Controller.PortfolioController/<Post>d__6": {
+        "System.Void CrossExchange.Controller.PortfolioController/<Post>d__6::MoveNext()": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "30": 0,
+            "31": 0,
+            "34": 2,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "40": 1,
+            "43": 1,
+            "44": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 39,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 34,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 95,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 81,
+              "EndOffset": 111,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 114,
+              "EndOffset": 116,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 114,
+              "EndOffset": 150,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 186,
+              "EndOffset": 188,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 186,
+              "EndOffset": 258,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Controller\\ShareController.cs": {
+      "CrossExchange.Controller.ShareController": {
+        "CrossExchange.IShareRepository CrossExchange.Controller.ShareController::get__shareRepository()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.Controller.ShareController::.ctor(CrossExchange.IShareRepository)": {
+          "Lines": {
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.Controller.ShareController/<Get>d__5": {
+        "System.Void CrossExchange.Controller.ShareController/<Get>d__5::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.Controller.ShareController/<GetLatestPrice>d__6": {
+        "System.Void CrossExchange.Controller.ShareController/<GetLatestPrice>d__6::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 279,
+              "EndOffset": 349,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 394,
+              "EndOffset": 396,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 394,
+              "EndOffset": 409,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "CrossExchange.Controller.ShareController/<Post>d__7": {
+        "System.Void CrossExchange.Controller.ShareController/<Post>d__7::MoveNext()": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 0,
+            "39": 0,
+            "42": 1,
+            "44": 1,
+            "45": 1
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 39,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 105,
+              "EndOffset": 107,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 105,
+              "EndOffset": 175,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Project\\Web\\CrossOver_Assignment\\CrossExchange\\CrossExchange\\CrossExchange\\Controller\\TradeController.cs": {
+      "CrossExchange.Controller.TradeController": {
+        "CrossExchange.IShareRepository CrossExchange.Controller.TradeController::get__shareRepository()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        },
+        "CrossExchange.ITradeRepository CrossExchange.Controller.TradeController::get__tradeRepository()": {
+          "Lines": {
+            "16": 2
+          },
+          "Branches": []
+        },
+        "CrossExchange.IPortfolioRepository CrossExchange.Controller.TradeController::get__portfolioRepository()": {
+          "Lines": {
+            "17": 2
+          },
+          "Branches": []
+        },
+        "System.Void CrossExchange.Controller.TradeController::.ctor(CrossExchange.IShareRepository,CrossExchange.ITradeRepository,CrossExchange.IPortfolioRepository)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.Controller.TradeController/<GetAllTradings>d__13": {
+        "System.Void CrossExchange.Controller.TradeController/<GetAllTradings>d__13::MoveNext()": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        }
+      },
+      "CrossExchange.Controller.TradeController/<Post>d__14": {
+        "System.Void CrossExchange.Controller.TradeController/<Post>d__14::MoveNext()": {
+          "Lines": {
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "63": 1,
+            "64": 1,
+            "67": 1,
+            "68": 1,
+            "70": 0,
+            "73": 0,
+            "74": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "97": 0,
+            "99": 0,
+            "100": 1
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 361,
+              "EndOffset": 363,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 67,
+              "Offset": 361,
+              "EndOffset": 391,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 571,
+              "EndOffset": 573,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 580,
+              "EndOffset": 582,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 580,
+              "EndOffset": 586,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 571,
+              "EndOffset": 596,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 601,
+              "EndOffset": 603,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 601,
+              "EndOffset": 631,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 875,
+              "EndOffset": 877,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 875,
+              "EndOffset": 890,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 1242,
+              "EndOffset": 1247,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 1242,
+              "EndOffset": 1638,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 1664,
+              "EndOffset": 1666,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 1664,
+              "EndOffset": 1692,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 1697,
+              "EndOffset": 1699,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 1697,
+              "EndOffset": 1728,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 1764,
+              "EndOffset": 1766,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 1764,
+              "EndOffset": 1833,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -40,6 +40,42 @@ namespace CrossExchange.Tests
             Assert.NotNull(createdResult);
             Assert.AreEqual(201, createdResult.StatusCode);
         }
-        
+
+        [Test]
+        public async Task Get_ShouldRetriveRegisterdShare()
+        {
+
+
+            // Arrange
+            string symbol = "REL";
+            // Act
+            var result = await _shareController.Get(symbol);
+
+            // Assert
+            Assert.NotNull(result);
+
+            var createdResult = result as OkObjectResult;
+            Assert.NotNull(createdResult);
+            Assert.AreEqual(200, createdResult.StatusCode);
+        }
+
+        //[Test]
+        //public async Task Get_ShouldRetriveLatestPrice()
+        //{
+
+
+        //    // Arrange
+        //    string symbol = "CBI";
+        //    // Act
+        //    var result = await _shareController.GetLatestPrice(symbol);
+
+        //    // Assert
+        //    Assert.NotNull(result);
+
+        //    var createdResult = result as OkObjectResult;
+        //    Assert.NotNull(createdResult);
+        //    Assert.AreEqual(200, createdResult.StatusCode);
+        //}
+
     }
 }

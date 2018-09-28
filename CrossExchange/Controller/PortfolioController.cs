@@ -30,8 +30,15 @@ namespace CrossExchange.Controller
             {
                 return BadRequest(ModelState);
             }
-
+            //BUG Fixed - User can not start trade before register.
+            if (value.Trade != null || value.Trade?.Count > 0)
+            {
+                var result = new BadRequestObjectResult(new { message = "User start trading after profile creation" });
+                return result;
+                //return BadRequest(value);
+            }
             await _portfolioRepository.InsertAsync(value);
+
 
             return Created($"Portfolio/{value.Id}", value);
         }
